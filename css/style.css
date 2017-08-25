@@ -1,0 +1,78 @@
+
+td{
+    width: 45px;
+    height:45px;
+}
+
+img{
+    width: 42px;
+    height: 42px;
+
+}
+
+body{
+  background:url(../img/bec.jpg);
+  height: auto;
+}
+
+section{
+  margin:0 auto;
+  background:black;
+  width:490px;
+  position:relative;
+}
+
+h1{
+  color:tan;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+}
+
+div{
+  display:flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+
+.monTexte{
+  border:2px solid #fdeecf;
+  border-radius:8%;
+  padding:10px;
+  width:200px;
+  color:black;
+  background:linear-gradient(45deg,#ffc870,white);
+  margin:20px;
+
+}
+
+.monTexte1{
+  border:2px solid #fdeecf;
+  border-radius:8%;
+  padding:10px;
+  width:200px;
+  color:black;
+  background:linear-gradient(45deg,#595652,white);
+  margin:20px;
+
+}
+
+
+.monTexte:hover{
+  background:linear-gradient(80deg,white,#ffc870);
+}
+
+.monTexte1:hover{
+  background:linear-gradient(80deg,white,#595652);
+}
+
+
+footer{
+  color:white;
+}
+
+
+
+.spinEffect{
+   transform: rotate(180deg);
+}
